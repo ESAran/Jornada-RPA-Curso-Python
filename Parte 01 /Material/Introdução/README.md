@@ -1,4 +1,4 @@
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Este é a PARTE 01 que irá cobrir os seguintes conteúdos:**
+## **Este é a PARTE 01 que irá cobrir os seguintes conteúdos:**
 
 - INTRODUÇÃO: características da Linguagem de Programação Python,  o uso de identação, a construção de comentários e as boas práticas de estilização;
 
