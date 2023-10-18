@@ -1,11 +1,3 @@
-## **Este é a PARTE 01 que irá cobrir os seguintes conteúdos:**
-
-- INTRODUÇÃO: características da Linguagem de Programação Python,  o uso de identação, a construção de comentários e as boas práticas de estilização;
-
-- FUNDAMENTOS DA LINGUAGEM: tipos de dados, atribuição de valores, entrada e saída de dados, operadores aritméticos, relacionais e lógicos, estruturas condicionais e de repetição;
-
-- ESTRUTURA DE DADOS: manipulação de strings, coleções de dados em formato de listas, coleções de dados em formato de dicionários, interação com arquivos;
-
 ### A linguagem Python
 A Linguagem de Programação Python foi criada em 1991 pelo matemático holandês Guido Van Rossum. Trata-se uma linguagem multiparadignma, ou seja, suporta tanto o paradigma orientado a objetos, quanto procedural e funcional. É uma das linguagens mais populares atualmente segundo o [IEEE Spectrum](https://spectrum.ieee.org/top-programming-languages-2022) e o [ranking da TIOBE](https://www.tiobe.com/tiobe-index/), aparecendo em primeiro lugar.
 
