@@ -1,7 +1,4 @@
-# Jornada RPA - Curso Python
-Informações e códigos do curso de desenvolvimento de Python - Jornada RPA / &lt;db> aprendizagem
-
-# 💻 &nbsp; LINGUAGEM DE PROGRAMAÇÃO PYTHON
+# 💻 &nbsp; Jornada RPA - Curso Python
 ---  
 
 > *Este material foi revisado e estruturado didaticamente para a capacitação Jornada RPA da DB Assessoria em Sistemas de Informação.
