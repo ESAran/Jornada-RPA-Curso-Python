@@ -1,2 +1,2 @@
-### Exercício 01
-Construa um código em python que leia um número do teclado e verifique se um número é primo.
+### Exercício 00
+Construir uma função que receba uma lista de valores e um valor, retornando uma outra lista com os números menores ao passado por parâmetro.
