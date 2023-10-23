@@ -6,3 +6,7 @@ df = pd.read_csv("https://alinedecampos.pro.br/etc/datasets/airbnb.csv") # camin
 df.info()
 
 dataframe_novo = pd.DataFrame(df, columns=["id", "name", "neighbourhood", "room_type", "price"])
+
+dataframe_novo[ (dataframe_novo["name"].str.contains("piscina")) &
+  (dataframe_novo["neighbourhood"] == 'Ipanema') & 
+  (dataframe_novo["price"] <= 600)]
