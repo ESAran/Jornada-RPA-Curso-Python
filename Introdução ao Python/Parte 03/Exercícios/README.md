@@ -13,6 +13,8 @@ O objetivo geral é guiar a introdução na (ou revisão da) Linguagem de Progra
 
 Tendo em vista o dataset a seguir, realize os exercícios indicados.
 
+---
+
 ##🔹 &nbsp;Exercício 01
 
 01) Crie um DataFrame selecionando apenas as colunas: `id`, `name`, `neighbourhood`, `room_type`, `price`.
@@ -28,26 +30,26 @@ Tendo em vista o dataset a seguir, realize os exercícios indicados.
 
 04) Quantos registros indicam a localização em `Capacabana` e o preço varia entre `500` e `700`?
 
-5) ## 🔹&nbsp; Exercício 05
+## 🔹&nbsp; Exercício 05
 
 5) Apresente os registros que tem a palavra `piscina` na descrição, fiquem no bairro de `Ipanema` e tenham preço menor que 600.
 
-6) ## 🔹&nbsp; Exercício 06
+## 🔹&nbsp; Exercício 06
 
 06) Descubra qual o preço da acomodação mais cara situada no bairro `Urca`.
 
-   ## 🔹&nbsp; Exercício 07
+## 🔹&nbsp; Exercício 07
 
 07) Crie um novo DataFrame consumindo os dados do mesmo dataset. Dessa vez selecione as colunas `id`, `neighbourhood`, `number_of_reviews` e `last_review`
 
-   ## 🔹&nbsp; Exercício 08
+## 🔹&nbsp; Exercício 08
 
 08) Mostre o top 10 bairros com maior quantidade de reviews.
 
-   ## 🔹&nbsp; Exercício 09
+## 🔹&nbsp; Exercício 09
 
 09) Mostre o `id` e a `data de review` das 10 acomodações com maior `número de reviews`.
 
-    ## 🔹&nbsp; Exercício 10
+## 🔹&nbsp; Exercício 10
 
 10) Apresente as 5 acomodações situadas no bairro `Lagoa` com as reviews `mais recentes`.
