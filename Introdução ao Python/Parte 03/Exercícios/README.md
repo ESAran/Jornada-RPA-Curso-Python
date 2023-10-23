@@ -15,7 +15,7 @@ Tendo em vista o dataset a seguir, realize os exercícios indicados.
 
 ---
 
-##🔹 &nbsp;Exercício 01
+## 🔹 &nbsp;Exercício 01
 
 01) Crie um DataFrame selecionando apenas as colunas: `id`, `name`, `neighbourhood`, `room_type`, `price`.
 
