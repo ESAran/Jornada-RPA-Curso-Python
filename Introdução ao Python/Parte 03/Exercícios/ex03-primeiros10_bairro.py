@@ -7,4 +7,4 @@ df.info()
 
 dataframe_novo = pd.DataFrame(df, columns=["id", "name", "neighbourhood", "room_type", "price"])
 
-dataframe_novo.filter(["neigbourhood", "room_type", "price"]).sort_values("price").head(10)
+dataframe_novo.filter(["neighbourhood", "room_type", "price"]).sort_values(["neighbourhood", "room_type", "price"]).head(10)
