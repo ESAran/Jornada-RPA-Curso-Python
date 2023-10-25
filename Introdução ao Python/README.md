@@ -1,10 +1,12 @@
 # Intro
 
 ## Linguagem de Programação Python | 16h
+Introdução a Linguagem de Programação Python abrangendo toda a sua estrutura principal.
+
 
 ### PARTE 01
 #### INTRODUÇÃO: 
-aracterísticas da Linguagem de Programação Python,  o uso de identação, a construção de comentários e as boas práticas de estilização
+características da Linguagem de Programação Python,  o uso de identação, a construção de comentários e as boas práticas de estilização
 #### FUNDAMENTOS DA LINGUAGEM: 
 tipos de dados, atribuição de valores, entrada e saída de dados, operadores aritméticos, relacionais e lógicos, estruturas condicionais e de repetição
 #### ESTRUTURA DE DADOS:
