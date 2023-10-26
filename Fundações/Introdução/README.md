@@ -13,17 +13,17 @@ https://docs.python.org/pt-br/3/library/venv.html
 > ***python -m venv venv***
 > 
 > <img src="https://user-images.githubusercontent.com/105756006/278388278-f4793fa8-314a-477d-911a-c90e4d137fb7.png" width="232" height="18.7">
-</br>
+
 > Ativar o ambiente com o script:
 > ***venv/Scripts(Bin para mac/linux)/Activate***
 >
 > <img src="https://user-images.githubusercontent.com/105756006/278388312-a1b9f065-3b6d-42a9-9e13-c90bc9e2368f.png" width="443" height="29.5">
-</br>
+
 > Selecionar interpretador:
 > **[ctrl] + [shift] + P > Select Interpreter > venv**
 >
 > <img src="https://user-images.githubusercontent.com/105756006/278388336-90e26927-9d80-4ef9-a481-72083c6cf646.png" width="443" height="111.5"><img src="https://user-images.githubusercontent.com/105756006/278388365-2817d987-e523-4976-af4c-0299bdedb3a5.png" width="443" height="113">
-</br>
+
 > Baixaar e importar as bibliotecas
 > ***pip install selenium, pip install pandas***
 >
