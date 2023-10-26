@@ -30,6 +30,7 @@ https://docs.python.org/pt-br/3/library/venv.html
 > <img src="https://user-images.githubusercontent.com/105756006/278388424-f2051e4f-3e13-4986-b13f-984ae06a760d.png" width="300" height="91">
 
 > Definir os caminhos do Chrome e Chromedriver:
+> 
 > `chrome_options = webdriver.ChromeOptions()`
 > `chrome_options.add_argument("--start-maximized")`
 >  
