@@ -2,9 +2,9 @@
 # Introdução
 Aprendendo a configurar o ambiente com Virtual Environment, ajustandos caminhos do Chrome e selecionando e preenchendo elementos no Site RPA Challenge.
 
-## Passo a Passo
+## Criação do Virtual Environment
 
-### Criação do Virtual Environment
+### Passo a Passo
 A Criação do Virtual Environment não é extremamente necessária para rodar as aplicações, porém limita as bibliotecas àquele ambiente, então é uma maneira de isolar as instalações.
 
 https://docs.python.org/pt-br/3/library/venv.html
@@ -42,3 +42,28 @@ https://docs.python.org/pt-br/3/library/venv.html
 >  `driver = webdriver.Chrome(options=chrome_options,service=service_options)`
 > 
 > <img src="https://user-images.githubusercontent.com/105756006/278388461-7f5f2372-c708-476f-bd09-219c27206dc5.png">
+
+## Selecionando e preenchendo
+### Selector
+Para selecionar e preencher elementos dentro do RPA Challenge (site de testes de RPA), foram utilizadas funções da biblioteca Selenium
+
+> Definindo variável *Site* com o URL e definindo o driver
+> `site = "http://rpachallenge.com/"
+driver.get(site)`
+>
+> <img src="https://user-images.githubusercontent.com/105756006/278464409-8390ba41-8366-4388-bd9b-df260dc56d78.png">
+
+
+> Utiliza-se a função find_element By para achar um determinado elemento dentro do site, nesse caso sendo utilizado o **XPATH** para encontrar.
+> `selector = driver.find_element(By.XPATH, '//input[@ng-reflect-name="labelAddress"]')
+selector.send_keys("Rua Gralha Azul, 45")`
+>
+> <img src="https://user-images.githubusercontent.com/105756006/278465306-2d9e0832-bbee-4cae-af5b-0fbda94d2c45.png" width="380" height="160"><img src="https://user-images.githubusercontent.com/105756006/278465215-5b2aac3d-f34e-43ad-b037-b44519406536.png" width="380" height="115">
+> <img src="https://user-images.githubusercontent.com/105756006/278464735-de75c0d7-438f-487f-b91f-2e61ba5a2317.png">
+
+
+
+
+
+
+
