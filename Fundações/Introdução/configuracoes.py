@@ -30,9 +30,7 @@ service_options = webdriver.ChromeService(executable_path=chrome_driver_path)
 driver = webdriver.Chrome(options=chrome_options,service=service_options)
  
 site = "http://rpachallenge.com/"
-arquivo = challenge.xlsx
 
-data_frame = pd.read_excel(arquivo)
 driver.get(site)
 
 # exemplo de seletor Selenium para elementos web
