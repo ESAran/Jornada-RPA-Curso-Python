@@ -6,7 +6,7 @@
 '''
 
 import PySimpleGUI as sg
-from challenge import challenge, resultado_challenge
+from challenge import challenge
 from fake_data import fake_data
 
 def tela_inicial():
