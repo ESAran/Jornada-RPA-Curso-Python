@@ -62,7 +62,8 @@ Arquivo de navegação, funções do site para obter o driver e navegação na p
 >  Possui a função chrome_browser que recebe um site por parâmetro e retorna o driver que será usado posteriormente pela biblioteca Selenium.
 > > *chrome_browser*
 > > 
-> >  ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/88b0b62f-c0a9-486b-a825-c4dfd4d630a3)
+> >  ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/2e1899db-6094-4635-b253-daf89f2443b1)
+
 
 > #### Classe PageObjects
 > 
