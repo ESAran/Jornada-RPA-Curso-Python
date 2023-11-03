@@ -11,25 +11,60 @@ Versão final com interface, busca de dados na web e preenchimento de formulári
 ### challenge.py [📄](https://github.com/ESAran/Jornada-RPA-Curso-Python/blob/main/Funda%C3%A7%C3%B5es/RPA%20Challenge/challenge.py)
 
 ### fake_data.py [📄](https://github.com/ESAran/Jornada-RPA-Curso-Python/blob/main/Funda%C3%A7%C3%B5es/RPA%20Challenge/fake_data.py)
+Possui a função fake_data para obtenção de dados gerados na Web aleatoriamente para preencher o RPA Challenge.
+> #### Imports
+>
+> Funções dos arquivos *navigation* e *file_manipulation*.
+>
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/6d32e131-4570-4f0b-837f-04fc2c4bc2d2)
+
+> #### Funções
+>
+> *fake_data:* tem as variáveis de site e caminho do arquivo, obtém o driver e utiliza das funções dos outros scripts para criar o csv que será importado ao RPA Challenge.
+>
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/25b302a8-76cf-4ac7-9899-deafb5cc5f20)
+
+
+
 
 ### file_manipulation.py [📄](https://github.com/ESAran/Jornada-RPA-Curso-Python/blob/main/Funda%C3%A7%C3%B5es/RPA%20Challenge/file_manipulation.py)
+Manipulação de arquivo, leitura e criação de CSV/XLSX
+> #### Imports
+>
+> Utilização de pandas, csv e os.
+>
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/920ef1b7-4e19-471b-840a-cff36c493e62)
+
+> #### Funções
+> O arquivo não tem uma classe definida, mas consta com duas funções.
+>
+> > *le_dados_challenge:* Faz a leitura de um arquivo CSV/XLSX, salvando as células em variáveis e retornando um vetor que será usado para preencher os campos posteriormente.
+> >
+> > ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/fe731ebb-c699-4149-939d-7497e6b8594f)
+> >
+> > *cria_csv e escreve_csv:* Cria e adiciona linhas ao CSV
+> > 
+> > ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/c7c17e3e-758c-4329-9604-387d5779aa61)
+
+
+
 
 ### navigation.py [📄](https://github.com/ESAran/Jornada-RPA-Curso-Python/blob/main/Funda%C3%A7%C3%B5es/RPA%20Challenge/navigation.py)
 Arquivo de navegação, funções do site para obter o driver e navegação na página com 3 classes.
-> #### Imports:
+> #### Imports
 > 
 > Utilização da biblioteca Selenium para navegar na Web.
 > 
 > ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/0d99b444-cd1f-4284-acad-660ebd5bd1c8)
 
-> #### Classe Browser:
+> #### Classe Browser
 > 
 >  Possui a função chrome_browser que recebe um site por parâmetro e retorna o driver que será usado posteriormente pela biblioteca Selenium.
 > > *chrome_browser*
 > > 
 > >  ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/88b0b62f-c0a9-486b-a825-c4dfd4d630a3)
 
-> #### Classe PageObjects:
+> #### Classe PageObjects
 > 
 > Possui as funções de iniciar(recebendo driver por parâmetro) e executar(recebendo driver e linha) o challenge, juntamente com a função de executar o fake_data.
 >
