@@ -9,8 +9,8 @@ class Browser:
         chrome_options.add_argument('--start-maximized')
         chrome_options.add_argument('--enable-chrome-browser-cloud-management')
         chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
-        chrome_options.binary_location = "C:/Users/eduardo_aran/OneDrive - Sicredi/Documents/Cruso Python/RPA Challenge/chrome-win64/chrome.exe"
-        chrome_driver_path = "C:/Users/eduardo_aran/OneDrive - Sicredi/Documents/Cruso Python/RPA Challenge/chromedriver-win64/chromedriver.exe"
+        chrome_options.binary_location = r"chrome-win64\chrome.exe"
+        chrome_driver_path = r"chromedriver-win64\chromedriver.exe"
         service_options = webdriver.ChromeService(executable_path=chrome_driver_path)
         driver = webdriver.Chrome(options=chrome_options, service=service_options)
  
