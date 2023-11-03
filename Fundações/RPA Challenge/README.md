@@ -7,8 +7,17 @@ Versão final com interface, busca de dados na web e preenchimento de formulári
 
 ## Arquivos
 ### gui.py [📄](https://github.com/ESAran/Jornada-RPA-Curso-Python/blob/main/Funda%C3%A7%C3%B5es/RPA%20Challenge/gui.py)
+Controle de interface gráfica, funcionando como arquivo gatilho para rodar o programa através da função *tela_inicial*
+
 
 ### challenge.py [📄](https://github.com/ESAran/Jornada-RPA-Curso-Python/blob/main/Funda%C3%A7%C3%B5es/RPA%20Challenge/challenge.py)
+Chama e utiliza as funções para rodar o preenchimento e funcionamento do Challenge em si, restornando o resultado que será exibido na tela posteriormente
+> #### Imports
+> Funções dos arquivos *navigation* e *file_manipulation* com utilização da Selenium para obtenção de elemento e time para setar espera.
+>
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/9a7bbbf3-0eb0-4024-9456-07d462f5b000)
+
+
 
 ### fake_data.py [📄](https://github.com/ESAran/Jornada-RPA-Curso-Python/blob/main/Funda%C3%A7%C3%B5es/RPA%20Challenge/fake_data.py)
 Possui a função fake_data para obtenção de dados gerados na Web aleatoriamente para preencher o RPA Challenge.
@@ -22,10 +31,7 @@ Possui a função fake_data para obtenção de dados gerados na Web aleatoriamen
 >
 > *fake_data:* tem as variáveis de site e caminho do arquivo, obtém o driver e utiliza das funções dos outros scripts para criar o csv que será importado ao RPA Challenge.
 >
-> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/25b302a8-76cf-4ac7-9899-deafb5cc5f20)
-
-
-
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/b16ea966-2aff-4758-8697-9218d9acaea1)
 
 ### file_manipulation.py [📄](https://github.com/ESAran/Jornada-RPA-Curso-Python/blob/main/Funda%C3%A7%C3%B5es/RPA%20Challenge/file_manipulation.py)
 Manipulação de arquivo, leitura e criação de CSV/XLSX
