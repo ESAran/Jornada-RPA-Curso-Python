@@ -4,7 +4,7 @@ from file_manipulation import cria_csv, escreve_csv
 
 def fake_data():
     site_data = "https://www.fakenamegenerator.com/gen-random-br-br.php"
-    file_path = './assets/new_challenge.csv'
+    file_path = r'assets\challenge.xlsx'
 
     driver = Browser.chrome_browser(site_data)
 
