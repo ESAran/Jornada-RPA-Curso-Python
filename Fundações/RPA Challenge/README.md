@@ -4,7 +4,31 @@ Versão final com interface, busca de dados na web e preenchimento de formulári
 ## Funcionamento
 
 ## Configurações
+### Criação do ambiente virtual
+A Criação do Virtual Environment não é extremamente necessária para rodar as aplicações, porém limita as bibliotecas àquele ambiente, então é uma maneira de isolar as instalações.
 
+https://docs.python.org/pt-br/3/library/venv.html
+
+> Criar o ambiente no console: 
+> ***python -m venv venv***
+> 
+> <img src="https://user-images.githubusercontent.com/105756006/278388278-f4793fa8-314a-477d-911a-c90e4d137fb7.png" width="232" height="18.7">
+
+> Ativar o ambiente com o script:
+> ***venv/Scripts(Bin para mac/linux)/Activate***
+>
+> <img src="https://user-images.githubusercontent.com/105756006/278388312-a1b9f065-3b6d-42a9-9e13-c90bc9e2368f.png" width="443" height="29.5">
+
+> Selecionar interpretador:
+> **[ctrl] + [shift] + P > Select Interpreter > venv**
+>
+> <img src="https://user-images.githubusercontent.com/105756006/278388336-90e26927-9d80-4ef9-a481-72083c6cf646.png" width="443" height="111.5"><img src="https://user-images.githubusercontent.com/105756006/278388365-2817d987-e523-4976-af4c-0299bdedb3a5.png" width="443" height="113">
+
+### Instalação da biblioteca
+Para utilização do software, com o comando *pip install (nome da biblioteca)*
+> #### Selenium [📄](https://selenium-python.readthedocs.io/): Para automação Web
+> #### Pandas [📄](https://pandas.pydata.org/): Para análise e manipulação de Dados
+> ### Outras: é possível que o programa peça algumas outras instalações para funcionamento das duas bibliotecas anteriores
 ## Arquivos
 ### gui.py [📄](https://github.com/ESAran/Jornada-RPA-Curso-Python/blob/main/Funda%C3%A7%C3%B5es/RPA%20Challenge/gui.py)
 Controle de interface gráfica, funcionando como arquivo gatilho para rodar o programa através da função *tela_inicial*
