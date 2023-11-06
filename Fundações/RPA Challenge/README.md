@@ -26,12 +26,35 @@ https://docs.python.org/pt-br/3/library/venv.html
 
 ### Instalação da biblioteca
 Para utilização do software, com o comando *pip install (nome da biblioteca)*
-> #### Selenium [📄](https://selenium-python.readthedocs.io/): Para automação Web
-> #### Pandas [📄](https://pandas.pydata.org/): Para análise e manipulação de Dados
-> ### Outras: é possível que o programa peça algumas outras instalações para funcionamento das duas bibliotecas anteriores
+> #### Selenium [📄](https://selenium-python.readthedocs.io/): para automação Web.
+> #### Pandas [📄](https://pandas.pydata.org/): para análise e manipulação de Dados.
+> #### PyAutoGUI [📄](https://pyautogui.readthedocs.io/en/latest/): para interface gráfica.
+> #### Outras: é possível que o programa peça algumas outras instalações para funcionamento das duas bibliotecas anteriores
 ## Arquivos
 ### gui.py [📄](https://github.com/ESAran/Jornada-RPA-Curso-Python/blob/main/Funda%C3%A7%C3%B5es/RPA%20Challenge/gui.py)
 Controle de interface gráfica, funcionando como arquivo gatilho para rodar o programa através da função *tela_inicial*
+> #### Imports
+> Funções dos arquivos *challenge* e *fake_data* para dar o "start" nas funções do programa, juntamente com a biblioteca PyAutoGUI para interface gráfica do programa.
+>
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/ab221f74-4c3a-4de4-a4ee-5e7e69ec0b19)
+>
+> #### Telas
+>  Telas do programa e suas funções
+> 
+> > *tela_inicial:* A tela inicial é dividida em 3 seções com os textos para estilização, que contém os botões que vão executar as etapas do projeto.
+> >
+> > ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/24d826c8-e5d6-45b8-8b54-1641783d8f12)
+>
+> > *tela_challenge:* corresponde à tela que vai solicitar qual arquivo vai ser utilizado para preencher os dados.
+> >
+> > ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/4e533b3f-8318-4163-8fc0-181e6f92f4e9)
+> >
+> > *tela_result:* demonstra o resultado do RPA Challenge.
+> >
+> > ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/1f46e2e9-99de-49e9-94ed-442b42637829)
+
+
+
 
 
 ### challenge.py [📄](https://github.com/ESAran/Jornada-RPA-Curso-Python/blob/main/Funda%C3%A7%C3%B5es/RPA%20Challenge/challenge.py)
