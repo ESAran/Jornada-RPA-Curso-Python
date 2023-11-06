@@ -2,6 +2,19 @@
 Captura de dados Web com salvamento dos mesmos em CSV
 
 ## Imports
+> Bibliotecas:
+> 
+> 1- Selenium para manipulação Web
+> 
+> 2- pandas para manipulação do CSV
+>  
+> 3- numpy
+>  
+> 4- os para criação do CSV no sistema
+>  
+> 5- time para aguardar
+>  
+<img width="232" alt="image" src="https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/e2e548df-1f00-4bd2-ba94-1e7109832c1a">
 
 ## Obtenção do Driver
 > Obtém o Driver do site para posteriormente realizar funções no mesmo.
