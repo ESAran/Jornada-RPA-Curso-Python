@@ -2,6 +2,10 @@
 Versão final com interface, busca de dados na web e preenchimento de formulário. Construção base feita em sala de aula, mantendo a estrutura e incrementando algumas funcionalidades.
 
 ## Funcionamento
+### Tela Inicial
+> Possui as funções de recolher dados da Web ou executar o Challenge com o arquivo desejado.
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/1a1ee96c-f003-4bab-813d-00cd999a637c)
+
 
 ## Configurações
 ### Criação do ambiente virtual
