@@ -1,7 +1,12 @@
 # RPA Challenge
 Versão final com interface, busca de dados na web e preenchimento de formulário. Construção base feita em sala de aula, mantendo a estrutura e incrementando algumas funcionalidades.
 
+O RPA Challenge é um desafio de automação de preenchimento de formulário Web e tem como seu objetivo o preenchimento do formulário com as informações da maneira mais rápida possível.
+
+
 ## Funcionamento
+Programa serve como uma interface capaz de realizar o RPA Challenge com um arquivo pré-definido ou com a raspagem de dados gerados na Web. O funcionamento padrão consiste em executar a função de Fake Data para recolher informações de pessoas fictícias que servirão para o preenchimento do RPA Challenge.
+
 ### Tela Inicial
 > Possui as funções de recolher dados da Web ou executar o Challenge com o arquivo desejado.
 > 
