@@ -4,8 +4,22 @@ Versão final com interface, busca de dados na web e preenchimento de formulári
 ## Funcionamento
 ### Tela Inicial
 > Possui as funções de recolher dados da Web ou executar o Challenge com o arquivo desejado.
+> 
 > ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/1a1ee96c-f003-4bab-813d-00cd999a637c)
 
+> Ao clicar em *COLETAR DADOS DO FAKEDATA*, abre o site para coletar os dados e guardar no CSV.
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/cb0cd311-44f5-4a79-8c86-7758a9995749)
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/51b414e1-64ea-458f-9b3f-58c61dfa4b94)
+
+
+> Clicando em *EXECUTAR CHALLENGE* abre uma tela para preenchimento de qual arquivo.
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/6ddbfd5b-eee8-42c2-be24-2ede0303ac08)
+
+> Abre o site do RPA CHALLENGE e preenche as informações.
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/fa0d389f-e2dc-46ec-b7f4-b3f2e6018ce9)
+
+> Retorna tela de conclusão com a pontuação do site! (Vale lembrar que "0 out of 70 field" vai ser o resultado mais comum, pois teoricamente seria preciso preencher com informações especificas que já são disponibilizadas pelo site por um arquivo '.xslx')
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/2525d82a-3d39-4886-8d40-de7459208d74)
 
 ## Configurações
 ### Criação do ambiente virtual
