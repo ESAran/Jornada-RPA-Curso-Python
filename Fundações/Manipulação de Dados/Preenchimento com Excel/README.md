@@ -14,6 +14,8 @@ Posteriormente na outra pasta é feito o mesmo preenchimento orientado à objeto
 > lê as variáveis através de um for e preenche conforme o campo selecionado:
 > 
 > ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/aed86368-adf3-4ddd-b6ff-e92314521dd6)
+> ![image](https://github.com/ESAran/Jornada-RPA-Curso-Python/assets/105756006/404b55be-82b5-4f10-bfbc-2d1a9ce67c10)
+
 
 ### Resultado
 > Idêntifica e retorna o resultado na tela
