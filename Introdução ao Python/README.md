@@ -25,8 +25,7 @@ Introdução a Linguagem de Programação Python abrangendo toda a sua estrutura
 	   > levantamento de erros, elementos para tratamento de exceções.
 
 ### PARTE 03
-- **NTERAÇÃO COM ARQUIVOS**
-
+- **INTERAÇÃO COM ARQUIVOS**
 	> interação com diferentes tipos de arquivos, arquivos texto, arquivos em formato CSV e em formato JSON.
 
 - **MANIPULAÇÃO DE DADOS**
