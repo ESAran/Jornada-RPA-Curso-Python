@@ -6,7 +6,7 @@ import time
 def challenge(arquivo):
     site_challenge = "https://rpachallenge.com"
     driver = Browser.chrome_browser(site_challenge)
-    arquivo = r"assets\new_challenge.csv"
+    #arquivo = r"assets\new_challenge.csv"
 
     PageObjects.inicia_challenge(driver)
 
@@ -20,4 +20,3 @@ def challenge(arquivo):
     resultado = resultado.text
 
     return resultado
-
