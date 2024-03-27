@@ -23,7 +23,7 @@ class PageObjects:
     def inicia_challenge(driver):
         button = Waits.clickable(driver, By.XPATH, "//button[@class='waves-effect col s12 m12 l12 btn-large uiColorButton']")
         button.click()
-       
+
  
     def executa_challenge(driver, row):
         textbox = Waits.visible(driver, By.XPATH, "//*[@ng-reflect-name='labelFirstName']")
@@ -61,6 +61,7 @@ class PageObjects:
  
         button.click()
  
+
     def executa_fake_data(driver):
         first_name = driver.find_element(By.XPATH, '//div[@class="address"]/h3[1]').text.split()[0]
  
